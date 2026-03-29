@@ -1,0 +1,147 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.body{
+  height: 100vh;
+  
+}
+.content{
+  font-weight: bolder;
+  font-size:x-large;
+  display: flex;
+  height: 100%;
+  background-color: royalblue;
+  color: white;
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  
+}
+
+.left p{
+  font-weight: lighter;
+  display: flex;
+  padding: 20px 0 0 0;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+}
+.right img{
+  height: 60%;
+  border-radius: 50px;
+}
+
+.MarginInfo{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  height: 300vh;
+  /* background-color: white; */
+  background: linear-gradient(white,royalblue);
+  /* justify-content: center; */
+  align-items: center;
+}
+.img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40%;
+  /* background-color: red; */
+  width: 80%;
+}
+
+.img img{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.text{
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+  
+}
+
+.text h1{
+  display: flex;
+  padding: 0 0 20px 0;
+}
+
+.text p{
+  display: flex;
+  font-size: x-large;
+  font-weight: lighter;
+  
+}
+.box{
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  display: flex;
+  /* background-color: red; */
+  height: 50vh;
+  width: 90vw;
+  gap: 40px;
+}
+.box1{
+  display: flex;
+  flex-direction: column;
+  min-height: 50%;
+  max-height: 70vh;
+  width: 30vw;
+  padding: 5vh;
+  /* margin: 50px; */
+  background-color: royalblue;
+  color: white;
+  gap: 20px;
+  border-radius: 20px;
+}
+
+.box2{
+  
+  display: flex;
+  min-height: 50%;
+  max-height: 70vh;
+  flex-direction: column;
+  padding:5vh;
+  width: 30vw;
+  /* margin: 50px; */
+  background-color:royalblue;
+  color: white;
+  gap: 5px;
+  border-radius: 20px;
+}
+
+.box2 p{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+
+
+.box3{
+  display: flex;
+  height: 50%;
+  flex-direction: column;
+  padding: 50px;
+  width: 30vw;
+  background-color:royalblue;
+  color: white;
+  gap: 20px;
+  border-radius: 20px;
+}
